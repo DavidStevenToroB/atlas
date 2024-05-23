@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/*cabezera*/
 header{
     display: flex;
     flex-direction: column;
@@ -25,9 +26,50 @@ nav{
     margin: 20px 0px;
     font-size: 25px;
 }
+.headAside{
+    margin: 60px 165px 0PX 165PX;
+}
 h1{
     font-size: 95px;
 }
-.headAside{
-    margin: 60px 165px 0PX 165PX;
+.headAsideP{
+    width: 1050px;
+    font-size: 25px;
+    margin: 60px 165px;
+    color: rgba(245, 245, 245, 0.856);
+}
+#pSpacieHeader{
+    margin: 15px 0px;
+}
+p{
+    font-family: Tahoma;
+    font-weight: lighter;
+}
+#buttonHead{
+    margin: 60px 0px;
+    width: 180px;
+    height: 60px;
+    border-radius: 25px;
+    border: transparent;
+    background-color: rgb(0,255,173);
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+/*Seccion1*/
+.firstSection{
+    display: flex;
+    flex-direction: column;
+    height: 72vh;
+    align-items: center;
+    justify-content: center;
+}
+.imgAside{
+    display: flex;
+    margin: 150px 100px;
+}
+.PSection1{
+    width: 350px;
+    text-align: center;
+    margin: 0px 15px;
 }
