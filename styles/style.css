@@ -2,11 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+
 /*cabezera*/
+
 header{
     display: flex;
     flex-direction: column;
-    height: 85vh;
+    height: 85  vh;
     background-image: url('../assents/img/banner-bk.jpg');
     background-size: cover;
     color: white;
@@ -45,31 +47,171 @@ p{
     font-family: Tahoma;
     font-weight: lighter;
 }
-#buttonHead{
+.button1{
     margin: 60px 0px;
     width: 180px;
     height: 60px;
-    border-radius: 25px;
+    border-radius: 30px;
     border: transparent;
     background-color: rgb(0,255,173);
     color: black;
     font-size: 20px;
     font-weight: 700;
 }
+
 /*Seccion1*/
+
 .firstSection{
     display: flex;
     flex-direction: column;
     height: 72vh;
     align-items: center;
     justify-content: center;
+    margin: 45px 0px;
+}
+.firstSectionTitle{
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: bolder;
 }
 .imgAside{
     display: flex;
-    margin: 150px 100px;
+    margin: 50px 0px 50px 0px;
+}
+.divFirstSection{
+    margin: 0px 50px;
+}
+.imgFirstSection{
+    width: 250px;
+    margin: 0px 50px 0px 50px;
+}
+h5{
+    font-family: Arial;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0px 0px 15px 0px;
 }
 .PSection1{
-    width: 350px;
+    width: 400px;
     text-align: center;
-    margin: 0px 15px;
+    font-size: 20px;
+}
+
+/*Section2*/
+
+.SecondSection{
+    display: flex;
+    height: 108vh;
+    flex-direction: column;
+    background: linear-gradient(345deg, rgba(0,255,179,1) 10%, rgba(0,255,179,1) 65%, rgba(0,255,179,1) 50%, rgba(255,255,255,1) 0%);
+    padding: 20px 0px;
+}
+.firstAside{
+    margin: 20px 160px 0px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondAside{
+    margin: 280px 180px 0px 180px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.h2Section2{
+    margin: 20px 0px 25px 0px;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: bolder; 
+}
+.textSection2{
+    width: 700px;
+    font-size: 20px;    
+}
+.buttonSection2{
+    margin: 60px 0px;
+    width: 190px;
+    height: 60px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: rgb(25,36,64);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+#imgSection2Aside2{
+    margin: 0px 0px 0px 120px;
+}
+
+/*section3*/
+
+.section3{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+}
+.sectionBoxes{
+    margin: 50px;
+    display: flex;
+}
+.boxesAside{
+    margin: 0px 50px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 250px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial;
+}
+h4{
+    margin: 20px 0px;
+    font-size: 30px;
+}
+.divBoxes{
+    margin: 20px 0px;
+    display: flex;
+}
+.pSpecial{
+    font-size: 80px;
+    font-weight: 800;
+}
+.othersP{
+    margin: 50px 0px 0px 0px;
+}
+.pSection3{
+    margin: 10px 0px;
+}
+.section3button{
+    margin: 60px 0px;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+#boxSpecial{
+    background-color: rgb(25,36,64);
+    color: white;
+    height: 600px;
+    width: 500px;
+}
+
+/*section4*/
+
+.section4{
+    display: flex;
+    height: 50vh;
+    background-color: whitesmoke;
+    justify-content: center;
+    justify-content: space-around;
+}
+.imgClientes{
+    width: 150px;
 }
