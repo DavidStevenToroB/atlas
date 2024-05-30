@@ -328,17 +328,6 @@ footer{
 @media screen and (max-width: 1279px) {
 
     /* header */
-    .firstSection{
-        align-items: start;
-    }
-    .fisrtSectionMDC{
-        margin: 0px;
-        width: 800px;
-    }
-    .imgFirstSection{
-        margin: 0px 0px 0px 0px;
-        width: 200px;
-    }
     nav{
         margin: 20px 0px 0px 20px;
         width: 850px;
@@ -353,7 +342,17 @@ footer{
     }
 
     /* section1 */
-
+    .firstSection{
+        align-items: center;
+    }
+    .fisrtSectionMDC{
+        margin: 0px;
+        width: 800px;
+    }
+    .imgFirstSection{
+        margin: 0px 0px 0px 20px;
+        width: 200px;
+    }
     h6{
        margin: 0px 0px;
        width: 220px;
