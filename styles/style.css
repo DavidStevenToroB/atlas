@@ -734,3 +734,59 @@ footer{
         margin-right: 0px;
     }
 }
+
+    /* MDC 480 */
+    @media screen and (max-width: 480px){
+        /* header */
+        nav{
+            width: 340px;
+        }
+        .headAside{
+            width: 340px;
+        }
+        .headAsideP{
+            width: 340px;
+        }
+    
+        /* section1 */
+        .firstSection{
+            margin: 0px 0px;
+            height: 120vh;
+        }
+        .firstSectionTitle{
+            width: 340px;
+        }
+        .imgAside{
+            margin: 0px 0px 0px 0px;
+            align-items: center;
+            flex-direction: column;
+        }
+        .divFirstSection{
+            margin: 0px 0px;
+            width: 200px;
+        }
+        .fisrtSectionMDC{
+            width: 340px;
+        }
+
+        /* section2 */
+        .imgMDC{
+            align-items: end;
+            width: 340px;
+        }
+
+        /* section3 */
+        .sectionBoxes{
+            width: 340px;
+        }
+        #boxSpecial{
+            width: 340px;
+        }
+
+        /* section4 */
+        #sectionMCD4{
+            margin: 0px 0px 0px 25px;
+            width: 280px;
+        }
+    }
+
