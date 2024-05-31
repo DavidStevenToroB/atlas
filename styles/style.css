@@ -15,9 +15,9 @@ header{
     font-family:'Lucida Sans';
 }
 nav{
+    margin: 100px 165px 0px 165px;
     display: flex;
     justify-content: space-between;
-    margin: 100px 165px 0px 165px;
 }
 #logo{
     width: 100px;
@@ -35,9 +35,9 @@ h1{
     font-size: 95px;
 }
 .headAsideP{
+    margin: 60px 165px;
     width: 1050px;
     font-size: 25px;
-    margin: 60px 165px;
     color: rgba(245, 245, 245, 0.856);
 }
 #pSpacieHeader{
@@ -206,13 +206,13 @@ h4{
 /*section4*/
 
 .section4{
+    padding: 0px 120px;
     display: flex;
     height: 25vh;
     background-color: rgb(238, 236, 236);
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    padding: 0px 120px;
 }
 .imgClientes{
     width: 180px;
@@ -325,29 +325,149 @@ footer{
 
 /* mediacueris */
 
+@media screen and (max-width: 1500px){
+    /* header */
+    nav{
+        margin: 20px 30px 0px 30px;
+    }
+    .headAside{
+        margin: 20px 30px 0PX 30PX;
+    }
+    h1{
+        font-size: 85px;
+    }
+    .headAsideP{
+        margin: 20px 30px;
+    }
+    .button1{
+        margin: 20px 0px;
+    }
+
+    /* section1  */
+    .firstSection{
+        margin: 50px 0px 0px 0px;
+        height: 80vh;
+    }
+    .divFirstSection{
+        margin: 0px 0px;
+    }
+    .imgFirstSection{
+        margin: 0px 0px 0px 60px;
+        width: 250px;
+    }
+    /* section2  */
+    .SecondSection{
+        padding: 0px;
+        height: 120vh;
+    }
+    .firstAside{
+        margin: 0px 20px 0px 20px;
+    }
+    .secondAside{
+        margin: 60px 0px 0px 0px;
+    }
+    .divFirstAsideMediaC{
+        margin: 0px 0px;
+        width: 550px;
+        height: 420px; 
+    }
+    .textSection2{
+        width: 550px;
+    }
+    .buttonSection2{
+        margin: 30px 0px;
+    }
+
+    /* section3  */
+    .section3{
+        padding: 80px 0px;
+        height: 110vh;
+    }
+    .boxesAside{
+        margin: 0px 20px;
+    }
+
+    /* section5  */
+    .section5{
+        padding: 0px 0px;
+        height: 80vh;
+
+    }
+    .inputTxtBox{
+        margin: 10px 10px 20px 0px;
+        width: 295px;
+        height: 50px;
+    }
+    #finalButton{
+        width: 600px;
+        height: 50px;
+    }
+    #textBoxSpecial{
+        width: 600px;
+        height: 140px;
+    }
+
+}
+
+
+    /* MDC 1279 */
+
 @media screen and (max-width: 1279px) {
 
     /* header */
+    header{
+        align-items: center;
+    }
     nav{
-        margin: 20px 0px 0px 20px;
+        margin: 30px 0px 10px 0px;
         width: 850px;
+    }
+    #logo{
+        width: 70px;
+    }
+    #linkNav{
+        margin: 20px 0px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
     }
     .headAside{
-        margin: 60px 0px 0px 30px ;
+        margin: 20px 0px 10px 0px ;
         width: 850px;
     }
+    h1{
+        font-size: 75px;
+    }
     .headAsideP{
-        margin: 30px 0px 0px 30px;
-        width: 800px;
+        margin: 15px 0px;
+        width: 850px;
+        font-size: 20px;
+    }
+    .button1{
+        margin: 30px 0px;
     }
 
     /* section1 */
+    
     .firstSection{
-        align-items: center;
+    margin: 20px 0px 0px;
+    height: 80vh;
+    }
+    .firstSectionTitle{
+        width: 800px;
+        text-align: center;
+    }
+    .imgAside{
+        margin: 0px 0px 20px 0px;
     }
     .fisrtSectionMDC{
         margin: 0px;
         width: 800px;
+        justify-content: space-around;
+    }
+    .divFirstSection{
+        margin: 0px 0px;
+        width: 300px;
     }
     .imgFirstSection{
         margin: 0px 0px 0px 20px;
@@ -355,56 +475,55 @@ footer{
     }
     h6{
        margin: 0px 0px;
-       width: 220px;
+       width: 250px;
        text-align: center;
     }
     .PSection1{
-        width: 300px;
-    }
-    .divFirstSection{
-        margin: 0px 0px;
-        width: 280px;
-    }
-    .firstSectionTitle{
-        font-family: Arial;
-        font-size: 60px;
-        font-weight: bolder;
-        width: 800px;
-        text-align: center;
+        width: 250px;
     }
 
     /* section2 */
+    .SecondSection{
+        padding: 0px 0px;
+        height: 130vh;
+    }
     .firstAside{
-        margin: 20px 0px 0px 0px;
-        display: flex;
+        margin: 0px 0px 0px 0px;
         justify-content: space-around;
         align-items: center;
+    }
+    .divFirstAsideMediaC{
+        width: 350px;
+        height: 420px; 
     }
     .textSection2{
         width: 350px;
     }
     .secondAside{
-        margin: 280px 0px 0px 0px;
-        display: flex;
+        margin: 0px 0px 0px 0px;
         flex-direction: row-reverse;
-        justify-content: space-between;
-        justify-content: end;
+        justify-content: space-around;
+    }
+    .h2Section2{
+        margin: 0px 0px 15px 0px;
     }
     .imgMDC{
         width: 550px;
     }
-    .divFirstAsideMediaC{
-        width: 350px;
-        height: 420px;
+    .buttonSection2{
+        margin: 20px 0px;
+    }
+    #imgSection2Aside2{
+        margin: 0px 0px 0px 0px;
     }
 
     /* section3 */
     .section3{
-        padding: 100px 0px;
+        padding: 50px 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 180vh;
+        height: 300vh;
     }
     .sectionBoxes{
         margin: 20px 0px;
@@ -421,26 +540,105 @@ footer{
         margin: 30px 0px; 
     }
 
+    /* section4 */
+    .section4{
+        padding: 0;
+    }
+    .imgClientes{
+        width: 120px;
+        height: 70px;
+    }
+
     /* section5 */
     .section5{
         padding: 0px;
+        height: 80vh;
+    }
+    .section5boxtitle{
+        width: 400px;
     }
     .section5TextBox{
         display: flex;
         flex-direction: column;
     }
     .inputTxtBox{
-        margin: 10px 0px 30px 0px;
-        background-color: transparent;
-        width: 350px;
-        height: 50px;
+        margin: 10px 0px 20px 0px;
     }
     #textBoxSpecial{
         width: 350px;
-        height: 140px;
+        height: 120px;
     }
     #finalButton{
         width: 350px;
         height: 50px;
     }
 }
+
+    /* MDC 920 */
+@media screen and (max-width: 920px){
+    /* header */
+    nav{
+        width: 700px;
+    }
+    .headAside{
+        width: 700px;
+    }
+    .headAsideP{
+        width: 700px;
+    }
+
+    /* section1 */
+    .firstSectionTitle{
+        width: 700px;
+    }
+    .fisrtSectionMDC{
+        width: 700px;
+    }
+    .PSection1{
+        width: 200px;
+    }
+    .imgFirstSection{
+        margin: 0px 0px 0px 0px;
+        width: 200px;
+    }
+    h6{
+       margin: 0px 0px;
+       width: 200px;
+       text-align: center;
+    }
+    
+    /* section2 */
+    .divFirstAsideMediaC{
+        width: 300px;
+        height: 400px; 
+    }
+    .textSection2{
+        width: 300px;
+    }
+    .imgMDC{
+        width: 450px;
+    }
+    .h2Section2{
+        margin: 0px 0px 15px 0px;
+        font-size: 40px;
+    }
+
+    /* section5 */
+    .section5boxtitle{
+        width: 350px;
+    }
+    .inputTxtBox{
+        margin: 0px 0px 15px 0px;
+        width: 300px;
+    }
+    #textBoxSpecial{
+        width: 300px;
+        height: 120px;
+    }
+    #finalButton{
+        width: 300px;
+        height: 50px;
+    }
+
+
+} 
