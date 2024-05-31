@@ -523,7 +523,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 300vh;
+        height: 200vh;
     }
     .sectionBoxes{
         margin: 20px 0px;
@@ -642,3 +642,95 @@ footer{
 
 
 } 
+
+    /* MDC 768 */
+@media screen and (max-width: 768px){
+    /* header */
+    nav{
+        width: 400px;
+    }
+    .headAside{
+        width: 400px;
+    }
+    .headAsideP{
+        width: 400px;
+    }
+
+    /* section1 */
+    .firstSection{
+        margin: 0px 0px;
+        height: 120vh;
+    }
+    .firstSectionTitle{
+        width: 400px;
+    }
+    .imgAside{
+        margin: 0px 0px 0px 0px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .divFirstSection{
+        margin: 0px 0px;
+        width: 200px;
+    }
+    .fisrtSectionMDC{
+        width: 450px;
+    }
+
+    /* section2  */
+    .divFirstAsideMediaC{
+        margin: 0px 0px;
+    }
+    .firstAside{
+        align-items: center;
+        flex-direction: column;
+    }
+    .secondAside{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgMDC{
+        align-items: end;
+        width: 450px;
+    }
+
+    /* section3 */
+    .section3{
+        padding: 0px 0px;
+    }
+    #sectionMCD4{
+        width: 400px;
+    }
+    .imgClientes{
+        width: 120px;
+        height: 70px;
+    }
+    #boxSpecial{
+        height: 580px;
+        width: 450px;
+    }
+
+    /* section5 */
+    .section5{
+        height: 80vh;
+        flex-direction: column;
+        justify-content:start;
+    }
+    .section5boxtitle{
+       margin: 20px 0px;
+    }
+
+    /* footer */
+    footer{
+        padding: 15px 30px;
+        flex-direction: column;
+    }
+    #imgFooterMCD{
+        align-items: center;
+        width: 320px;
+        height: 100px;
+    }
+    .imagenesUltima{
+        margin-right: 0px;
+    }
+}
