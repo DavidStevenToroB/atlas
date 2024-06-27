@@ -13,6 +13,7 @@ header{
     background-size: cover;
     color: white;
     font-family:'Lucida Sans';
+
 }
 nav{
     margin: 100px 165px 0px 165px;
@@ -68,6 +69,7 @@ p{
     height: 72vh;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .firstSectionTitle{
     font-family: Arial;
@@ -206,19 +208,38 @@ h4{
 /*section4*/
 
 .section4{
-    padding: 0px 120px;
     display: flex;
     height: 25vh;
     background-color: rgb(238, 236, 236);
     justify-content: center;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    position:relative;
+    position: sticky;
+    bottom: 50px;
 }
 .imgClientes{
     width: 180px;
     height: 90px;
+    margin: 0px 5px;
 }
-
+#stupidCat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -90px;
+    color: white;
+    font-size: 35px;
+    font-family: fantasy;
+}
+#stupidCatIMG{
+    width: 100px;
+    border-radius: 150px;
+    border: 5px solid black;
+}
 /* section5 */
 
 .section5{
